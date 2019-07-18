@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>hearder</title>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="../../public/css/hearder.css">
-	<link rel="stylesheet" type="text/css" href="../../public/css/slide.css">
+<title>NHÓM 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="../../public/css/hearder.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
-<body>
-
+<body style="font-family: tahoma;">
 <nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
 	<div class="container-fluid">
 	<div class="navbar-header">
@@ -31,13 +30,64 @@
 		<li><a href="#">Liên hệ</a></li>
 	</ul>
 	<ul class="nav navbar-nav navbar-right">
-		<li><a href="#" style="font-size: 12px;"><span class="glyphicon glyphicon-user"></span> Đăng nhập</a></li>
-		<li><a href="#" style="font-size: 12px;"><span class="glyphicon glyphicon-log-in"></span> Đăng ký</a></li>
+		<li><a href="#" style="font-size: 13px;"><span class="glyphicon glyphicon-user"></span>   Đăng nhập</a></li>
+		<li><a href="#" style="font-size: 13px;"><span class="glyphicon glyphicon-log-in"></span>   Đăng ký</a></li>
 	</ul>
 	</div>
-</nav> 
+</nav>
+<div style="position: absolute; width: 100%;">
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="img/slide1.png" alt="slide1" style="width:100%;">
+      </div>
 
-<div class="container">
+      <div class="item">
+        <img src="img/slide4.png" alt="slide3" style="width:100%;">
+      </div>
+    
+      <div class="item">
+        <img src="img/slide3.png" alt="slide3" style="width:100%;">
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="bgcl" style="position: absolute;
+    background-color: #22222275;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 17%;
+    height: 18%;"></div>
+<div class="search col-md-12 col-sm-12" style="position: absolute;
+    width: 100%;
+    padding-left: 23%;
+    margin-top: 20%;">
+  <div class="form-group col-md-2 col-sm-4" style="padding-left: 5px; padding-right: 5px">
+    <select id="inputState" class="form-control">
+      <option style="height: 50px">Địa điểm</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="form-group col-md-2 col-sm-4" style="padding-left: 5px; padding-right: 5px">
+    <select id="inputState" class="form-control">
+      <option selected >Ngành nghề</option>
+      <option>...</option>
+    </select>
+  </div>
+  <div class="form-group col-md-5 col-sm-8" style="padding-left: 5px; padding-right: 5px">
+    <form class="example" action="/action_page.php" style="margin:auto;width:100%;">
+      <input type="text" placeholder="Vui lòng nhập..." name="search2" style="height: 50px;">
+      <button type="submit" style="height: 50px; width: 15%;background: #222222;"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+<!-- <div class="container">
   <div class="mySlides">
     <img src="img/slide1.png" style="width:100%">
   </div>
@@ -99,6 +149,6 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
-</script>
+</script> -->
 </body>
 </html>
