@@ -1,8 +1,7 @@
-/*.navbar-inverse {
-    background-color: #ff7d34;
-    border-color: #FFF0;
+.navbar-inverse {
+    border-color: #222;
 }
-
+/*
 .navbar-header img
 {
 	width: 150px;
@@ -23,14 +22,25 @@
     margin-bottom: 0px;
     border: 1px solid transparent;
 }*/
+/*.text-center p {
+    text-align: left;
+}*/
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+.row.mt-3 h6{
+    text-align: center;
+}
 .navbar-inverse .navbar-nav>li>a {
-    font-size: 16px;
+    font-size: 14px;
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #9d9d9d;
     height: 65px;
     padding-top: 22px;
-    font-size: 16px;
+    font-size: 14px;
 }
 .navbar-inverse .navbar-brand {
     color: #9d9d9d;
@@ -50,7 +60,7 @@
     padding: 10px 20px;
     clear: both;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 1.42857143;
     color: #333;
     white-space: nowrap;
@@ -60,6 +70,7 @@
     color: #FFF;
     background-image: linear-gradient(#404040, #080808);
 }
+
 .form-control {
     display: block;
     width: 100%;
@@ -109,6 +120,22 @@ form.example::after {
     border-left: 1px solid #ddd;
     border-bottom-color: transparent;
 }
+
+h4, h5, h6{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.media p{
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.media {
+    margin-top: 0px;
+}
+
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
     background-color: #f1f1f1;
@@ -118,7 +145,7 @@ a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, 
     text-decoration: none;
     background-image: linear-gradient(#ffffff, #edf7ff);
 }
-.congty li {
+.khuvuc li, .chuyenmon li {
     margin-left: 10%;
     padding: 5px;
 }
