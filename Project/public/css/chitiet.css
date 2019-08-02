@@ -26,6 +26,14 @@
     text-align: left;
 }*/
 
+.w3-bar .w3-button {
+    white-space: normal;
+    width: 16.66%;
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #f9f9f9!important;
+}
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -38,14 +46,14 @@
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #9d9d9d;
-    height: 65px;
-    padding-top: 22px;
-    font-size: 16px;
+    height: 48px;
+    padding-top: 14px;
+    font-size: 14px;
 }
 .navbar-inverse .navbar-brand {
     color: #9d9d9d;
-    height: 65px;
-    width: 150px;
+    height: 45px;
+    width: 130px;
 }
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
     background-color: #000;
@@ -168,3 +176,62 @@ span.badge {
     height: 27%;
   }
 }
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+/*  margin-top: -30px;
+  padding: 16px;*/
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+.dot-container {
+    text-align: center;
+    padding: 20px;
+    background: #ddd;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+q {font-style: italic;}
+
+.author {color: cornflowerblue;}
