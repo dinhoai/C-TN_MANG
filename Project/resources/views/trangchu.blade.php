@@ -5,13 +5,16 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/hearder.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/hearder.css">
 </head>
 <body style="font-family: tahoma; background-color: #f9f9f9;">
-<nav class="navbar navbar-inverse" style="margin-bottom: 0px;">
+<nav class="navbar navbar-inverse" style="margin-bottom: 0px;    position: fixed;
+    z-index: 10;    margin-top: 0%;
+    width: 100%">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a href="trangchu"><img src="img/logo.png" class="navbar-brand"></a>
@@ -52,13 +55,13 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="item active">
-					<img src="img/slide1.png" alt="slide1" style="width:100%;">
+					<img src="img/slide1.jpg" alt="slide1" style="width:100%;">
 				</div>
 				<div class="item">
-					<img src="img/slide4.png" alt="slide3" style="width:100%;">
+					<img src="img/slide4.jpg" alt="slide3" style="width:100%;">
 				</div>
 				<div class="item">
-					<img src="img/slide3.png" alt="slide3" style="width:100%;">
+					<img src="img/slide3.jpg" alt="slide3" style="width:100%;">
 				</div>
 			</div>
 		</div>
@@ -90,7 +93,7 @@
 	</div>
 </div>
 <div class="contentjob">
-	<div style="border: solid 1px #ddd; margin-top: 45%; margin-bottom: 10px; background-color: #fff; margin-left: 14%; width: 50%; float: left;">
+	<div style="border: solid 1px #ddd; margin-top: 50%; margin-bottom: 10px; background-color: #fff; margin-left: 14%; width: 50%; float: left;">
 		<ul class="nav nav-tabs">
 			<li class="active"><a data-toggle="tab" href="#home"><b>VIỆC LÀM MỚI</b></a></li>
 			<li><a data-toggle="tab" href="#menu1"><b>VIỆC LÀM NỔI BẬT</b></a></li>
@@ -116,6 +119,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -138,6 +142,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -160,6 +165,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -182,6 +188,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -204,6 +211,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -226,6 +234,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -248,6 +257,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -270,6 +280,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -292,6 +303,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -334,6 +346,7 @@
 						
 						<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;"></div>
@@ -357,6 +370,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -379,6 +393,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -401,6 +416,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -423,6 +439,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -445,6 +462,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -467,6 +485,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -489,6 +508,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -511,6 +531,7 @@
 					</a>
 					<hr style="border: 0;
 								width: 90%;
+								margin-left: 5%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -536,10 +557,11 @@
 			</div>
 		</div>
 	</div>
-		<div class="congty" style="float: right; margin-right: 14%;background-color: #fff; margin-top: 45%; width: 20%; border: 1px solid #ddd">
+		<div class="congty" style="float: right; margin-right: 14%;background-color: #fff; margin-top: 50%; width: 20%; border: 1px solid #ddd">
 		<ul class="list-group-item" style="border: #FFF;color: #337ab7;text-align: center;margin-bottom: 2px;"><b>NHÀ TUYỂN DỤNG</b></ul>
 		<hr style="border: 0;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: -1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -555,6 +577,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -570,6 +593,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -585,6 +609,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -600,6 +625,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -615,6 +641,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -630,6 +657,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -645,6 +673,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -660,6 +689,7 @@
 					</a>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 1px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -678,7 +708,9 @@
 		<ul class="list-group-item" style="border: #FFF;color: #337ab7;text-align: center;margin-bottom: 2px;"><b>VIỆC LÀM THEO TỈNH</b></ul>
 		<hr style="border: 0;
 								width: 92%;
-								margin-top: 1px;
+								margin-left: 4%;
+								margin-left: 4%;
+								margin-top: 0px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
 		<li><a href="#">Hà Nội<span class="badge">5</span></a><br></li>
@@ -694,6 +726,7 @@
 		<ul class="list-group-item" style="border: #FFF;color: #337ab7;text-align: center;margin-bottom: 2px;"><b>VIỆC LÀM CHUYÊN MÔN</b></ul>
 		<hr style="border: 1px;
 								width: 92%;
+								margin-left: 4%;
 								margin-top: 2px;
 								margin-bottom: 0px;
 								border-top: 1px solid #eee;">
@@ -708,153 +741,557 @@
 	</div> -->
 </div>
 
-  <div style="background-color: #222222;clear: both; margin-top: 20px; margin-bottom: 15px;">
+<!--   <div style="background-color: #222222;clear: both; margin-top: 20px; margin-bottom: 15px;">
     <div class="">
-
-      <!-- Grid row-->
       <div class="row py-4 d-flex align-items-center">
-
-        <!-- Grid column -->
         <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
           <h6 class="mb-0" style="color: #bdbdbd">Get connected with us on social networks!</h6>
         </div>
       </div>
-      <!-- Grid row-->
-
     </div>
-  </div>
-<div class="main">
+  </div> -->
+<div class="chuemon" style="padding-top: 5px;clear: both;">
 
-<h1>MYLOGO.COM</h1>
-<hr>
+	<div class="w3-bar w3-black" style="background-color: #222;">
+	  <button class="w3-bar-item w3-button" onclick="openCity('CNTT')">CNTT</button>
+	  <button class="w3-bar-item w3-button" onclick="openCity('KETOAN')">KẾ TOÁN</button>
+	  <button class="w3-bar-item w3-button" onclick="openCity('MAR')">MARKETING</button>
+	  <button class="w3-bar-item w3-button" onclick="openCity('THIETKE')">THIẾT KẾ</button>
+	  <button class="w3-bar-item w3-button" onclick="openCity('NGHANG')">NGÂN HÀNG</button>
+	  <button class="w3-bar-item w3-button" onclick="openCity('BACSI')">BÁC SĨ</button>
+	</div>
 
-<h2>PORTFOLIO</h2>
+	<div id="CNTT" class="w3-container w3-display-container city">
+	  <span onclick="this.parentElement.style.display='none'"
+	  class="w3-button w3-large w3-display-topright">&times;</span>
+	 <table class="table table-striped">
+	    <tbody>
+	      <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	        </ul>
+	    </tbody>
+  	</table>
+	</div>
 
-<div id="myBtnContainer">
-  <button class="btn active" onclick="filterSelection('all')"> Show all</button>
-  <button class="btn" onclick="filterSelection('nature')"> Nature</button>
-  <button class="btn" onclick="filterSelection('cars')"> Cars</button>
-  <button class="btn" onclick="filterSelection('people')"> People</button>
+	<div id="KETOAN" class="w3-container w3-display-container city" style="display:none">
+	  <span onclick="this.parentElement.style.display='none'"
+	  class="w3-button w3-large w3-display-topright">&times;</span>
+	 <table class="table table-striped">
+	    <tbody>
+	      <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	    </tbody>
+  	</table>
+	</div>
+
+	<div id="MAR" class="w3-container w3-display-container city" style="display:none">
+	  <span onclick="this.parentElement.style.display='none'"
+	  class="w3-button w3-large w3-display-topright">&times;</span>
+	 <table class="table table-striped">
+	    <tbody>
+	      <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	    </tbody>
+  	</table>
+	</div>
+	<div id="THIETKE" class="w3-container w3-display-container city" style="display:none">
+	  <span onclick="this.parentElement.style.display='none'"
+	  class="w3-button w3-large w3-display-topright">&times;</span>
+	 <table class="table table-striped">
+	    <tbody>
+	      <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	    </tbody>
+  	</table>
+	</div>
+
+	<div id="NGHANG" class="w3-container w3-display-container city" style="display:none">
+	  <span onclick="this.parentElement.style.display='none'"
+	  class="w3-button w3-large w3-display-topright">&times;</span>
+	 <table class="table table-striped">
+	    <tbody>
+	      <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	    </tbody>
+  	</table>
+	</div>
+
+	<div id="BACSI" class="w3-container w3-display-container city" style="display:none">
+	  <span onclick="this.parentElement.style.display='none'"
+	  class="w3-button w3-large w3-display-topright">&times;</span>
+	 <table class="table table-striped">
+	    <tbody>
+	      <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/workshop.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Workshop</span>
+	            <br>
+	            <span>Ultricies congue</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	        <ul class="w3-ul w3-hoverable w3-white" style="width: 33%; float: left;">
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Denim</span>
+	            <br>
+	            <span>Sed mattis nunc</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/bandmember.jpg" alt="Image" class="w3-left w3-margin-right" style="width:50px">
+	            <span class="w3-large">Sweaters</span>
+	            <br>
+	            <span>Praes tinci sed</span>
+	          </li>
+	          <li class="w3-padding-16">
+	            <img src="/w3images/avatar_smoke.jpg" alt="Image" class="w3-left w3-margin-right w3-sepia" style="width:50px">
+	            <span class="w3-large">Trends</span>
+	            <br>
+	            <span>Lorem ipsum dipsum</span>
+	          </li>
+	        </ul>
+	    </tbody>
+  	</table>
+	</div>
+	<script>
+	function openCity(cityName) {
+	  var i;
+	  var x = document.getElementsByClassName("city");
+	  for (i = 0; i < x.length; i++) {
+	    x[i].style.display = "none";  
+	  }
+	  document.getElementById(cityName).style.display = "block";  
+	}
+	</script>
 </div>
+<div class="note">
+	<div class="slideshow-container">
 
-<!-- Portfolio Gallery Grid -->
-<div class="row">
-  <div class="column nature">
-    <div class="content">
-      <img src="/w3images/mountains.jpg" alt="Mountains" style="width:100%">
-      <h4>Mountains</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="/w3images/lights.jpg" alt="Lights" style="width:100%">
-      <h4>Lights</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column nature">
-    <div class="content">
-    <img src="/w3images/nature.jpg" alt="Nature" style="width:100%">
-      <h4>Forest</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  
-  <div class="column cars">
-    <div class="content">
-      <img src="/w3images/cars1.jpg" alt="Car" style="width:100%">
-      <h4>Retro</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="/w3images/cars2.jpg" alt="Car" style="width:100%">
-      <h4>Fast</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column cars">
-    <div class="content">
-    <img src="/w3images/cars3.jpg" alt="Car" style="width:100%">
-      <h4>Classic</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
+		<div class="mySlides">
+		  <q>I love you the more in that I believe you had liked me for my own sake and for nothing else</q>
+		  <p class="author">- John Keats</p>
+		</div>
 
-  <div class="column people">
-    <div class="content">
-      <img src="/w3images/people1.jpg" alt="Car" style="width:100%">
-      <h4>Girl</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-    <img src="/w3images/people2.jpg" alt="Car" style="width:100%">
-      <h4>Man</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-  <div class="column people">
-    <div class="content">
-    <img src="/w3images/people3.jpg" alt="Car" style="width:100%">
-      <h4>Woman</h4>
-      <p>Lorem ipsum dolor..</p>
-    </div>
-  </div>
-<!-- END GRID -->
+		<div class="mySlides">
+		  <q>But man is not made for defeat. A man can be destroyed but not defeated.</q>
+		  <p class="author">- Ernest Hemingway</p>
+		</div>
+
+		<div class="mySlides">
+		  <q>I have not failed. I've just found 10,000 ways that won't work.</q>
+		  <p class="author">- Thomas A. Edison</p>
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1)">❮</a>
+		<a class="next" onclick="plusSlides(1)">❯</a>
+
+		</div>
+
+		<div class="dot-container">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+
+		<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+		  showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+		  showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+		  var i;
+		  var slides = document.getElementsByClassName("mySlides");
+		  var dots = document.getElementsByClassName("dot");
+		  if (n > slides.length) {slideIndex = 1}    
+		  if (n < 1) {slideIndex = slides.length}
+		  for (i = 0; i < slides.length; i++) {
+		      slides[i].style.display = "none";  
+		  }
+		  for (i = 0; i < dots.length; i++) {
+		      dots[i].className = dots[i].className.replace(" active", "");
+		  }
+		  slides[slideIndex-1].style.display = "block";  
+		  dots[slideIndex-1].className += " active";
+		}
+		</script>
 </div>
-
-<!-- END MAIN -->
-</div>
-
-<script>
-filterSelection("all")
-function filterSelection(c) {
-  var x, i;
-  x = document.getElementsByClassName("column");
-  if (c == "all") c = "";
-  for (i = 0; i < x.length; i++) {
-    w3RemoveClass(x[i], "show");
-    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
-  }
-}
-
-function w3AddClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
-  }
-}
-
-function w3RemoveClass(element, name) {
-  var i, arr1, arr2;
-  arr1 = element.className.split(" ");
-  arr2 = name.split(" ");
-  for (i = 0; i < arr2.length; i++) {
-    while (arr1.indexOf(arr2[i]) > -1) {
-      arr1.splice(arr1.indexOf(arr2[i]), 1);     
-    }
-  }
-  element.className = arr1.join(" ");
-}
-
-
-// Add active class to the current button (highlight it)
-var btnContainer = document.getElementById("myBtnContainer");
-var btns = btnContainer.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function(){
-    var current = document.getElementsByClassName("active");
-    current[0].className = current[0].className.replace(" active", "");
-    this.className += " active";
-  });
-}
-</script>
   <div style="background-color: #222222;">
     <div class="">
 
