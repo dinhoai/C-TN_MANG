@@ -26,7 +26,7 @@
 					<li><a href="#">Page 1-3</a></li>
 				</ul>
 			</li>
-			<li><a href="#">Part time</a></li>
+			<li><a href="#">Công ty</a></li>
 			<li><a href="#">Đăng tin tuyển dụng</a></li>
 			<li><a href="#">Liên hệ</a></li>
 		</ul>
