@@ -1,10 +1,10 @@
-/*.navbar-inverse {
+.navbar-inverse {
     border-color: #222;
-}*/
+}
 /*
 .navbar-header img
 {
-	width: 150px;
+  width: 150px;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -26,6 +26,14 @@
     text-align: left;
 }*/
 
+.w3-bar .w3-button {
+    white-space: normal;
+    width: 16.66%;
+}
+.w3-button:hover {
+    color: #000!important;
+    background-color: #f9f9f9!important;
+}
 .row {
     margin-right: 0px;
     margin-left: 0px;
@@ -34,7 +42,7 @@
     text-align: center;
 }
 .navbar-inverse .navbar-nav>li>a {
-    font-size: 14px;
+    font-size: 16px;
 }
 .navbar-inverse .navbar-nav>li>a {
     color: #9d9d9d;
@@ -60,7 +68,7 @@
     padding: 10px 20px;
     clear: both;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
     color: #333;
     white-space: nowrap;
@@ -101,10 +109,6 @@ form.example button {
   cursor: pointer;
 }
 
-.navbar-inverse {
-    background-color: #131313e0;
-    border-color: #08080800;
-}
 form.example button:hover {
   background: #0b7dda;
 }
@@ -115,18 +119,6 @@ form.example::after {
   display: table;
 }
 
-.w3-white, .w3-hover-white:hover {
-    color: #000!important;
-    background-color: #f9f9f9!important;
-}
-.w3-button:hover {
-    color: #000!important;
-    background-color: #f9f9f9!important;
-}
-.w3-black, .w3-hover-black:hover {
-    color: #9d9d9d!important;
-    background-color: #222!important;
-}
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color: #555;
     cursor: default;
@@ -137,7 +129,7 @@ form.example::after {
     border-bottom-color: transparent;
 }
 
-h4, h5, h6{
+h4, h6{
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -148,9 +140,6 @@ h4, h5, h6{
   white-space: nowrap;
   overflow: hidden;
 }
-.media {
-    margin-top: 0px;
-}
 
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: none;
@@ -159,15 +148,11 @@ h4, h5, h6{
 a.list-group-item:focus, a.list-group-item:hover, button.list-group-item:focus, button.list-group-item:hover {
     color: #555;
     text-decoration: none;
-    background-image: linear-gradient(#ffffff, #edf7ff);
+    background-color: white;
 }
 .khuvuc li, .chuyenmon li {
     margin-left: 10%;
     padding: 5px;
-}
-.w3-bar .w3-button {
-    white-space: normal;
-    width: 16.66%;
 }
 span.badge {
     margin-left: 2%;

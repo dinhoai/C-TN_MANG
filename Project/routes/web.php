@@ -44,7 +44,9 @@ Route::get('/', function () {
 // 	});
 // });
 
-Route::get('index',[
-	'as' => 'trang chu',
-	'uses' => 'PageController@getIndex'
+Route::get('trangchu',[
+	'uses' => 'PageController@gettrangchu'
+]);
+Route::get('chitiet',[
+	'uses' => 'PageController@getchitiet'
 ]);

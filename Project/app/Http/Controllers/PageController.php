@@ -6,7 +6,10 @@ use Illuminate\Http\Request;
 
 class PageController extends Controller
 {
-    public function getIndex(){
-    	return view('hearder');
+    public function gettrangchu(){
+    	return view('trangchu');
+    }
+    public function getchitiet(){
+    	return view('chitiet');
     }
 }
