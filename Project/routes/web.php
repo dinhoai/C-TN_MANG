@@ -50,3 +50,9 @@ Route::get('trangchu',[
 Route::get('chitiet',[
 	'uses' => 'PageController@getchitiet'
 ]);
+Route::get('congty',[
+	'uses' => 'PageController@getcongty'
+]);
+Route::get('ungvien',[
+	'uses' => 'PageController@getungvien'
+]);
