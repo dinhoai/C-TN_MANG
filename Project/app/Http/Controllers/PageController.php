@@ -12,4 +12,10 @@ class PageController extends Controller
     public function getchitiet(){
     	return view('chitiet');
     }
+    public function getcongty(){
+    	return view('congty');
+    }
+    public function getungvien(){
+    	return view('ungvien');
+    }
 }
