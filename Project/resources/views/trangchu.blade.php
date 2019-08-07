@@ -12,39 +12,32 @@
 	<link rel="stylesheet" type="text/css" href="css/hearder.css">
 </head>
 <body style="font-family: tahoma; background-color: #f9f9f9;">
-<nav class="navbar navbar-inverse" style="margin-bottom: 0px;    position: fixed;
-    z-index: 10;    margin-top: 0%;
-    width: 100%">
-	<div class="container-fluid">
-		<div class="navbar-header">
-			<a href="trangchu"><img src="img/logo.png" class="navbar-brand"></a>
+	<nav class="navbar navbar-inverse" style="margin-bottom: 0px;    position: fixed;
+	    z-index: 10;
+	    width: 100%">
+			<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="trangchu"><img src="img/logo.png" class="navbar-brand"></a>
+			</div>
+			<ul class="nav navbar-nav">
+				<li><a href="#">Trang chủ</a></li>
+				<li><a href="#chuenmon">Chuyên môn</a></li>
+				<li><a href="#">Công ty</a></li>
+				<li><a href="#">Ứng viên</a></li>
+				<li><a href="#">Liên hệ</a></li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: 13px"><span class="glyphicon glyphicon-log-in"></span>   Đăng nhập</a>
+					<ul class="dropdown-menu">
+						<li><a href="#" style="font-size: 13px">Nhà tuyển dụng</a></li>
+						<li><a href="#" style="font-size: 13px">Ứng viên</a></li>
+					</ul>
+				</li>
+				<li><a href="#" style="font-size: 13px;"><span class="glyphicon glyphicon-user"></span>   Đăng ký</a></li>
+			</ul>
 		</div>
-		<ul class="nav navbar-nav">
-			<li><a href="#">Trang chủ</a></li>
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Chuyên môn<span class="caret"></span></a>
-				<ul class="dropdown-menu">
-					<li><a href="#">Page 1-1</a></li>
-					<li><a href="#">Page 1-2</a></li>
-					<li><a href="#">Page 1-3</a></li>
-				</ul>
-			</li>
-			<li><a href="#">Công ty</a></li>
-			<li><a href="#">Ứng viên</a></li>
-			<li><a href="#">Liên hệ</a></li>
-		</ul>
-		<ul class="nav navbar-nav navbar-right">
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#" style="font-size: 13px"><span class="glyphicon glyphicon-log-in"></span>   Đăng nhập</a>
-				<ul class="dropdown-menu">
-					<li><a href="#" style="font-size: 13px">Nhà tuyển dụng</a></li>
-					<li><a href="#" style="font-size: 13px">Ứng viên</a></li>
-				</ul>
-			</li>
-			<li><a href="#" style="font-size: 13px;"><span class="glyphicon glyphicon-user"></span>   Đăng ký</a></li>
-		</ul>
-	</div>
-</nav>
+	</nav>
 <div class="slide">
 	<div style="position: absolute; width: 100%;">
 		<div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -750,7 +743,7 @@
       </div>
     </div>
   </div> -->
-<div class="chuemon" style="padding-top: 5px;clear: both;">
+<div class="chuemon" id="chuenmon" style="padding-top: 50px;clear: both;">
 
 	<div class="w3-bar w3-black" style="background-color: #222;">
 	  <button class="w3-bar-item w3-button" onclick="openCity('CNTT')">CNTT</button>
