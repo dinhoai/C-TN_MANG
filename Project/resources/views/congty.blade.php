@@ -92,6 +92,144 @@
 		.pagination a:active {
 			outline: none;
 		}
+		.head-listing-box {
+			height: 190px!important;
+		}
+		.head-listing-box {
+			background-color: #333;
+			background-image: url(/job-bg.jpg);
+			background-size: cover;
+			background-position: 50% 50%;
+			position: relative;
+			height: 230px;
+			-webkit-transition: .3s;
+			transition: .3s;
+		}
+		.head-listing-box .overlay-box {
+			padding-top: 25px;
+		}
+		.container {
+			width: 1170px;
+		}
+		.head-listing-box .box_search .nav-tabs {
+			border-bottom: none;
+			margin-bottom: -1px;
+		}
+		.head-listing-box .box_search .nav-tabs li {
+			cursor: pointer;
+			margin-bottom: 0!important;
+		}
+		.nav-tabs>li {
+			float: left;
+			margin-bottom: -1px;
+		}
+		.head-listing-box .box_search .nav-tabs li a {
+			background: #fff;
+			color: #777;
+			margin-right: 5px;
+			border: none;
+		}
+		.nav-tabs>li>a {
+			margin-right: 2px;
+			line-height: 1.42857143;
+			border: 1px solid transparent;
+			border-radius: 4px 4px 0 0;
+		}
+		.head-listing-box .box_search .nav-tabs .active a{
+			background: #333;
+			color: #fff;
+			border-bottom: 0;
+			border: 1px solid white;
+		}
+		.head-listing-box .box_search .nav-tabs li a {
+			background: #fff;
+			color: #777;
+			margin-right: 5px;
+			border: none;
+		}
+		.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+			color: #555;
+			cursor: default;
+			background-color: #fff;
+			border: 1px solid #ddd;
+			border-bottom-color: transparent;
+		}
+		.head-listing-box .box_search .tab-content {
+			background: #333;
+			padding: 20px;
+			color: #fff;
+			border-radius: 0 4px 4px 4px;
+			position: relative;
+			border: 1px solid white;
+			padding-top: 25px;
+		}
+		.search-company {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: horizontal;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: row;
+			flex-direction: row;
+		}
+		.search-company .item-keyword {
+			width: 85%;
+			margin-bottom: 5px;
+		}
+		.el-input {
+			position: relative;
+			font-size: 14px;
+		}
+		.el-input, .el-input__inner {
+			width: 100%;
+			display: inline-block;
+		}
+		.el-input__icon {
+			position: absolute;
+			width: 35px;
+			height: 100%;
+			right: 0;
+			top: 0;
+			text-align: center;
+			color: #bfcbd9;
+			-webkit-transition: all .3s;
+			transition: all .3s;
+		}
+		.el-input__icon+.el-input__inner {
+			padding-right: 35px;
+		}
+		.search-company .item-button{
+			margin-left: 10px;
+			width: 15%;
+		}
+		.search-company .item-button .btn-search {
+			width: 100%;
+			padding: 7px 0;
+			background: transparent;
+			border: 1px solid #fff;
+			font-weight: 700;
+		}
+		.btn {
+			display: inline-block;
+			padding: 6px 12px;
+			margin-bottom: 0;
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 1.42857143;
+			text-align: center;
+			white-space: nowrap;
+			vertical-align: middle;
+			-ms-touch-action: manipulation;
+			touch-action: manipulation;
+			cursor: pointer;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+			background-image: none;
+			border: 1px solid transparent;
+			border-radius: 4px;
+		}
 	</style>
 </head>
 <body style="font-family: tahoma; background-color: #f9f9f9;">
@@ -120,55 +258,41 @@
 		</ul>
 	</div>
 </nav>
-<div class="slide">
-	<div style="position: absolute; width: 100%;">
-		<div id="myCarousel" class="carousel slide" data-ride="carousel">
-			<ol class="carousel-indicators">
-				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-				<li data-target="#myCarousel" data-slide-to="1"></li>
-				<li data-target="#myCarousel" data-slide-to="2"></li>
-			</ol>
-			<div class="carousel-inner">
-				<div class="item active">
-					<img src="img/slide1.png" alt="slide1" style="width:100%;">
+<section class="head-listing-box">
+	<div class="container overlay-box">
+		<div class="box_search">
+			<ul class="nav nav-tabs">
+				<li class="">
+					<a href="/ung-vien" class="">
+						<i class="li-clipboard-user mr-2"></i> Tìm ứng viên
+					</a>
+				</li>
+				<li class="active">
+					<a href="/cong-ty" class="nuxt-link-exact-active nuxt-link-active">
+						<i class="li-apartment mr-2"></i> Tìm công ty
+					</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div class="search-company">
+					<div class="item-keyword">
+						<div  class="el-input">
+							<i class="el-input__icon el-icon-search"></i>
+							<input autocomplete="off" placeholder="Nhập tên công ty cùng địa điểm muốn tìm..." icon="search" type="text" rows="2" validateevent="true" class="el-input__inner" style="height: 35px">
+						</div>
+					</div>
+					<div class="item-button">
+						<button class="btn btn-search">Tìm kiếm</button>
+					</div>
 				</div>
-				<div class="item">
-					<img src="img/slide4.png" alt="slide3" style="width:100%;">
-				</div>
-				<div class="item">
-					<img src="img/slide3.png" alt="slide3" style="width:100%;">
+				<div class="text-center loadding-filter">
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="bgcl">
-	</div>
-	<div class="search col-md-12 col-sm-12" style="position: absolute;
-			width: 100%;
-			padding-left: 30%;
-			margin-top: 20%;">
-		<div class="form-group col-md-2 col-sm-4" style="padding-left: 5px; padding-right: 5px">
-			<select id="inputState" class="form-control">
-				<option style="height: 50px">Địa điểm</option>
-				<option>...</option>
-			</select>
-		</div>
-		<div class="form-group col-md-2 col-sm-4" style="padding-left: 5px; padding-right: 5px">
-			<select id="inputState" class="form-control">
-				<option selected >Ngành nghề</option>
-				<option>...</option>
-			</select>
-		</div>
-		<div class="form-group col-md-5 col-sm-8" style="padding-left: 5px; padding-right: 5px">
-			<form class="example" action="/action_page.php" style="margin:auto;width:100%;">
-				<input class="form-control col-md-5" type="text" placeholder="Vui lòng nhập..." name="search2" style="width: 200px; height: 34px;">
-				<button class="form-control col-md-5" type="submit" style="margin-left: 3%; height: 34px; width: 15%;background: #222222;"><i class="fa fa-search"></i></button>
-			</form>
-		</div>
-	</div>
-</div>
+</section>
 <div class="contentjob">
-	<div style="border: solid 1px #ddd; margin-top: 45%; margin-bottom: 10px; background-color: #fff; margin-left: 14%; margin-right: 14%; float: left;">
+	<div style="border: solid 1px #ddd; margin-top: 2%; margin-bottom: 10px; background-color: #fff; margin-left: 14%; margin-right: 14%; float: left;">
 		<ul class="nav nav-tabs">
 			<li class="active"><a data-toggle="tab" href="#home"><b>DANH SÁCH CÔNG TY</b></a></li>
 		</ul>
