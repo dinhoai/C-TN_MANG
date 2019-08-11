@@ -56,3 +56,10 @@ Route::get('congty',[
 Route::get('ungvien',[
 	'uses' => 'PageController@getungvien'
 ]);
+
+Route::get('chitietungvien',[
+	'uses' => 'PageController@getchitietungvien'
+]);
+Route::get('chitietcongty',[
+	'uses' => 'PageController@getchitietcongty'
+]);
